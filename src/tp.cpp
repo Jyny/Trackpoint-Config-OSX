@@ -23,10 +23,10 @@ int main()
 	unsigned char buf[4];
 
 	// sensitivity
-	// 18 02 05 - Sensitivity, 01--09 in windows, 00--FF works
+	// 18 02 xx   # xx Sensitivity, 00-FF
 	buf[0] = 0x18;
 	buf[1] = 0x02;
-	buf[2] = 0x08;
+	buf[2] = 0x11;
 	hid_write(dev, buf, 3);
 
 	hid_close(dev);

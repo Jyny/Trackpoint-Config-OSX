@@ -4,7 +4,7 @@ Adapted from https://github.com/unknownzerx/tpkb, https://github.com/lentinj/tp-
 
 - Config
 	- sensitivity xx
-		- Set sensitivity of TrackPoint. xx is hex value 01--09 (although values up to FF work).
+		- Set sensitivity of TrackPoint. xx is hex value 01-FF (It's not linearly, and can't catch rules)
 
 	- others
 		- todo ...

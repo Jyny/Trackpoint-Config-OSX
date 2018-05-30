@@ -3,7 +3,7 @@ Config Utility for 'ThinkPad Compact Bluetooth Keyboard with TrackPoint' (0B4718
 Adapted from https://github.com/unknownzerx/tpkb, https://github.com/lentinj/tp-compact-keyboard
 
 - Config
-	- sensitivity xx
+	- sensitivity xx (I'd like 11-13)
 		- Set sensitivity of TrackPoint. xx is hex value 01-FF (It's not linearly, and can't catch rules)
 
 	- others

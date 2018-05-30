@@ -26,7 +26,7 @@ int main()
 	// 18 02 xx   # xx Sensitivity, 00-FF
 	buf[0] = 0x18;
 	buf[1] = 0x02;
-	buf[2] = 0x11;
+	buf[2] = 0x13;
 	hid_write(dev, buf, 3);
 
 	hid_close(dev);

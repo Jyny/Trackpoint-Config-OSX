@@ -47,7 +47,7 @@ int main()
 	// 18 02 xx   # xx Sensitivity, 00-FF
 	buf[0] = 0x18;
 	buf[1] = 0x02;
-	buf[2] = 0x10;
+	buf[2] = 0x09;
 	hid_write(dev, buf, 3);
 
 	// Middle button

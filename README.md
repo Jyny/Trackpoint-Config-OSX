@@ -1,10 +1,18 @@
-Config Utility for 'ThinkPad Compact Bluetooth Keyboard with TrackPoint' (0B47189) for OSX
+# Trackpoint-Config-OSX
 
-Adapted from https://github.com/unknownzerx/tpkb, https://github.com/lentinj/tp-compact-keyboard
+Config Utility for ThinkPad TrackPoint Bluetooth Keyboards for OSX
 
-- Config
-	- sensitivity xx (I'd like 11-13)
-		- Set sensitivity of TrackPoint. xx is hex value 01-FF (It's not linearly, and can't catch rules)
+## Support Models
+- ThinkPad Compact Bluetooth Keyboard with TrackPoint (0B47189)
+- ThinkPad TrackPoint Keyboard II
 
-	- others
-		- todo ...
+## Install
+1. `make install`
+2. `sudo tpkb`
+
+## Adapted from
+- https://github.com/unknownzerx/tpkb
+- https://github.com/lentinj/tp-compact-keyboard
+
+
+enjoy :)

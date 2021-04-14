@@ -2,6 +2,10 @@
 
 Config Utility for ThinkPad TrackPoint Bluetooth Keyboards for OSX
 
+## Features
+* Maximize Trackpoint Sensitivity
+* Disable middle-click (only scrolling with Trackpoint)
+
 ## Support Models
 - ThinkPad Compact Bluetooth Keyboard with TrackPoint (0B47189)
 - ThinkPad TrackPoint Keyboard II
